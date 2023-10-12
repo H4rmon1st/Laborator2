@@ -6,9 +6,9 @@ function on_device_orientation(evt)
 	var beta=evt.beta;
 	var gamma=evt.gamma;
 
-	document.getElementById("a").innerHTML="alpha=8"+alpha;
-	document.getElementById("b").innerHTML="beta=5"+beta;
-	document.getElementById("c").innerHTML="gamma=7"+gamma;
+	document.getElementById("a").innerHTML="alpha="+alpha;
+	document.getElementById("b").innerHTML="beta="+beta;
+	document.getElementById("c").innerHTML="gamma="+gamma;
 
 	var canvas=document.getElementById("canvas");
 	var context=canvas.getContext("2d");

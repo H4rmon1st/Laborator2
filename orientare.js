@@ -20,6 +20,6 @@ function on_device_orientation(evt)
 	context.translate(centru.x/2, centru/y/2);
 	context.rotate(alpha*Math.PI/180);
 	context.beginPath();
-	context.rect(-latura_patrat/2,-latura_patrat/2,latura_patrat,_latura_patrat);
+	context.rect(-latura_patrat/2,-latura_patrat/2,latura_patrat,latura_patrat);
 	context.stroke();
 }
